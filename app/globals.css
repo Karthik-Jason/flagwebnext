@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+.div {
+  background:
+  linear-gradient(to bottom, rgba(234, 234, 43, 0.142), rgba(200, 120, 15, 0.729)), 
+  url('./assets/family-pic.jpg') fixed;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative; 
+}
+
+.home-page-text {
+  background: linear-gradient(45deg, #d7d78a, #ff8205);
+  border-radius: 15px;
+}
+
+/** fadeInLeft */
+@keyframes fadeInLeft {
+  from {
+      opacity:0;
+      transform: translatex(-500px);
+  }
+  to {
+      opacity:1;
+      transform: translatex(0);
+  }
+}
+.in-left {
+  animation-name: fadeInLeft;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}

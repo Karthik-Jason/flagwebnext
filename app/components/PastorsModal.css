@@ -1,0 +1,24 @@
+#box {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: 'translate(-50%, -50%)';
+  width: 750px;
+  height:450px;
+  /* height: 100; */
+  background-color: aliceblue;
+  border-radius: 3%;
+  /* boxShadow: 24; */
+}
+#title, #role{
+    font-size: 25px;
+    padding: 10pt 38pt;
+    font-weight: 800;
+}
+
+#description{
+    margin-top: 12pt;
+    font-size: 15px;
+    padding-left: 7%;
+    padding-right: 6%;
+}
