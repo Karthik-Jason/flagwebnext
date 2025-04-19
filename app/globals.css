@@ -8,14 +8,15 @@ html {
 
 .div {
   background:
-  linear-gradient(to bottom, rgba(234, 234, 43, 0.088), rgba(200, 120, 15, 0.559)), 
-  url('../public/Images/family-pic.png') fixed;
+  linear-gradient(to bottom, rgba(248, 248, 158, 0.088), rgba(205, 169, 71, 0.542)), 
+  url('../public/Images/family-pic.png');
   /* background: linear-gradient(45deg, #d7d78a, #ff8205) fixed; */
-  background-size: cover;
-  min-height: 110vh;
-  height: 300px;
-  width: 100%;
+  background-size: contain;
+  min-height: 120vh;
+  height: 50%;
+  width: 150%;
   position: relative; 
+  font-size: 0.875rem;
 }
 
 .home-page-text {
@@ -40,4 +41,19 @@ html {
   animation-fill-mode: both;
   animation-duration: 1s;
   animation-delay: 1s;
+}
+
+@media (min-width:768px) {
+   /* big landscape tablets, laptops, and desktops */ 
+   .div {
+    background:
+    linear-gradient(to bottom, rgba(248, 248, 158, 0.088), rgba(205, 169, 71, 0.542)), 
+    url('../public/Images/family-pic.png') fixed;
+    background-size: contain;
+    min-height: 30vh;
+    height: 100%;
+    width: 100%;
+    position: relative; 
+  }
+  
 }
