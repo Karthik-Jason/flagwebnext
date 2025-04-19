@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <header className="header">
           <Link href="/" className="logo"><Image alt="logo" src={logo} /></Link>
-          <nav className="navbar">
+          <nav className="navbar flex">
           <Link href="#home" className="link">HOME</Link>
           <Link href="#about-us" className="link">ABOUT US</Link>
           <Link href="#know-god"className="link">KNOW GOD</Link>
