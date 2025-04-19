@@ -171,13 +171,25 @@ const AboutUs = () => {
                   description:
                     "Evangelist Daniel Vinayagam is a passionate and dedicated servant of God, traveling in and around Chennai to share the Gospel and bring souls to Christ. His ministry is marked by a deep burden for the lost, bold evangelism, and unwavering faith. Whether preaching in open-air meetings, ministering in churches, or reaching out to those in spiritual need, his heart burns for revival and transformation. His wife, Shanthi, stands as a strong pillar of support, actively encouraging and praying for the ministry. Together, they have faithfully served God, witnessing lives changed, hearts healed, and communities impacted by the power of the Gospel. God has blessed them with two sons, Mahesh & Karthick, who, along with their spouses, are actively involved in the church, carrying forward the legacy of faith and service. Their family remains a testimony of God’s grace, dedication, and the unstoppable power of the Gospel.",
                 },
+                {
+                  name: "Pastor Joshua & Shalomi",
+                  role: "Iyyappanthangal",
+                  description:
+                    "Evangelist Daniel Vinayagam is a passionate and dedicated servant of God, traveling in and around Chennai to share the Gospel and bring souls to Christ. His ministry is marked by a deep burden for the lost, bold evangelism, and unwavering faith. Whether preaching in open-air meetings, ministering in churches, or reaching out to those in spiritual need, his heart burns for revival and transformation. His wife, Shanthi, stands as a strong pillar of support, actively encouraging and praying for the ministry. Together, they have faithfully served God, witnessing lives changed, hearts healed, and communities impacted by the power of the Gospel. God has blessed them with two sons, Mahesh & Karthick, who, along with their spouses, are actively involved in the church, carrying forward the legacy of faith and service. Their family remains a testimony of God’s grace, dedication, and the unstoppable power of the Gospel.",
+                },
+                {
+                  name: "Pastor Sathyamoorthy & Nila",
+                  role: "Kanchipuram",
+                  description:
+                    "Evangelist Daniel Vinayagam is a passionate and dedicated servant of God, traveling in and around Chennai to share the Gospel and bring souls to Christ. His ministry is marked by a deep burden for the lost, bold evangelism, and unwavering faith. Whether preaching in open-air meetings, ministering in churches, or reaching out to those in spiritual need, his heart burns for revival and transformation. His wife, Shanthi, stands as a strong pillar of support, actively encouraging and praying for the ministry. Together, they have faithfully served God, witnessing lives changed, hearts healed, and communities impacted by the power of the Gospel. God has blessed them with two sons, Mahesh & Karthick, who, along with their spouses, are actively involved in the church, carrying forward the legacy of faith and service. Their family remains a testimony of God’s grace, dedication, and the unstoppable power of the Gospel.",
+                }
               ].map((pastor, index) => (
               <div key={index} className="container">
                 <div id="pastors-details" className="card">
                   <div className="face face1">
                     <div className="content">
                       {/* <p>{pastor.description}</p> */}
-                      <PastorsModal name={pastor.name} role={pastor.role} description={pastor.description}/>
+                      <PastorsModal name={pastor.name} role={pastor.role} description={pastor.description} imageIndex={index + 1}/>
                     </div>
                   </div>
                   <div className="face face2">

@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
      <Head>
-     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
      </Head>
       <body className="body">
         <div className="">
