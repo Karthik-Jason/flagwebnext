@@ -9,11 +9,12 @@ html {
 .div {
   background:
   linear-gradient(to bottom, rgba(234, 234, 43, 0.088), rgba(200, 120, 15, 0.559)), 
-  url('./assets/family-pic.png') fixed;
+  url('../public/Images/family-pic.png') fixed;
+  /* background: linear-gradient(45deg, #d7d78a, #ff8205) fixed; */
   background-size: cover;
-  min-height: 100vh;
-  /* width: 100%; */
-  /* height: 90%; */
+  min-height: 110vh;
+  height: 300px;
+  width: 100%;
   position: relative; 
 }
 

@@ -1,5 +1,6 @@
 export default function Home() {
   return (
+    <div>
     <div id= "home" className="home-page-text bg-gray-50 shadow-2xl rounded-3xl p-9 border-gray-700 in-left"  style={{ margin: '-120pt 200pt', position: 'absolute'}}>
       <h1 className="text-3xl text-gray-200 font-bold mb-5">Welcome to Full Life Centre Assembly of God Church (FLAG)!</h1>
       <p className="text-lg text-gray-100">Welcome to Full Life Centre (FLAG)
@@ -8,6 +9,7 @@ export default function Home() {
         Join us as we pursue God’s heart, grow together in faith, and experience the life-transforming power of Jesus.
         Welcome to the Full Life Family. There's a place for you here.
       </p>
+    </div>
     </div>
     
   );
