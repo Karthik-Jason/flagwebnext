@@ -72,6 +72,8 @@
   .about-us-card {
     background: linear-gradient(45deg, #d7d78a, #ff8205);
     border-radius: 15px;
+    top: -20px;
+    position: relative;
   }
   
   .card:hover .face.face2{

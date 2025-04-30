@@ -1,9 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
 
 //components
 import Navbar from "./components/Navbar";
-import AboutUs from "./aboutus/page"
+import AboutUs from "./aboutus/page";
 import DonateUs from "./donateus/page";
 import Footer from "./footer/page";
 import KnowGod from "./knowgod/page";
@@ -20,18 +21,28 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="viewport" content="width=device-width; initial-scale=0.1"/>
-        </head>
-      <body className="body">
-        <div className="div">
+        <meta
+          name="viewport"
+          content="width=device-width; initial-scale=1; shrink-to-fit=no"
+        />
+      </head>
+      <body>
         <Navbar />
+        <div className="div">
+          <Image
+            src="/Images/familyPic.jpg"
+            alt="Descriptive alt text"
+            width={1920}
+            height={1080}
+            className="mobile-only-family-image"
+          />
+          {children}
         </div>
-        {children}
-        <AboutUs/>
+        <AboutUs />
         <KnowGod />
         <DonateUs />
-        <Footer />
-        <ScrollButton />
+        {/* <Footer /> */}
+        {/* <ScrollButton /> */}
       </body>
     </html>
   );

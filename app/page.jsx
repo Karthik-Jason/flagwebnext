@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div id= "home" className="home-page-text bg-gray-50 shadow-2xl rounded-3xl p-9 border-gray-700 in-left"  style={{width: '65%', margin: '-120pt 200pt', position: 'absolute'}}>
+    <div id= "home" className="home-page-text bg-gray-50 shadow-2xl rounded-3xl p-9 border-gray-700 in-left">
       <h1 className="text-3xl text-gray-200 font-bold mb-5">Welcome to Full Life Centre Assembly of God Church (FLAG)!</h1>
       <p className="text-sm text-gray-100 mb-1">We are delighted to welcome you to the Full Life Centre Assembly of God Church (FLAG)—a place where faith, family, 
       and purpose come together. Whether you're exploring your faith, searching for a spiritual home, or simply visiting, we’re honored to have you with us. At FLAG,

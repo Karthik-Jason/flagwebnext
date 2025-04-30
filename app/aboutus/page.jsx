@@ -11,10 +11,10 @@ const AboutUs = () => {
 
   return (
       <div id="about-us" className="mt-36">
-        <h1 className="about-us-card text-6xl font-bold text-center mb-8 text-white p-10 rounded-lg shadow-lg">ABOUT US</h1>
+        <h1 className="about-us-card text-6xl font-bold text-center mb-8 text-white p-10 shadow-lg">ABOUT US</h1>
 
         {/* Buttons to switch sections */}
-        <div className="flex justify-center space-x-4 mb-6">
+        <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4 mb-6 mx-5 md:mx-0">
           <button id= "subtabs"
             onClick={() => setActiveSection("ourChurch")}
             className={`px-4 py-2 font-semibold rounded ${
@@ -43,7 +43,7 @@ const AboutUs = () => {
 
         {/* Our Church Section */}
         {activeSection === "ourChurch" && (
-          <section className="fade-in mb-8 mx-24">
+          <section className="fade-in mb-8 mx-5 md:mx-24 pb-5">
             <h2 className="text-4xl font-semibold mb-4 text-white">History</h2>
             <p className="text-lg mb-6 font-bold text-white">
             Thiruverkadu, a well-known pilgrimage center for the people of Chennai, is a rapidly growing village located 15 km
@@ -77,7 +77,7 @@ const AboutUs = () => {
 
         {/* Senior Pastor Section */}
         {activeSection === "seniorPastor" && (
-          <section className="fade-in  mb-8 mx-24">
+          <section className="fade-in mb-8 mx-5 md:mx-24 pb-5">
             <h2 className="text-4xl font-semibold mb-4 text-white">Our Senior Pastor – Rev. N. Johnson</h2>
             <p className="text-lg mb-6 font-bold text-white">
             Rev. N. Johnson’s life is a powerful testimony of God’s grace and transformation. Born and raised in a Hindu family in a small village in India, young Johnson had an intense longing to see and know God—even at the age of 13. He spent hours in a local library, reading Hindu legends in search of divine truth. However, the more he read, the more he realized that these stories were mere myths, leading him to question his beliefs.
@@ -101,7 +101,7 @@ const AboutUs = () => {
 
         {/* Pastoral Team Section */}
         {activeSection === "pastoralTeam" && (
-          <section className="fade-in mb-8 mx-24">
+          <section className="fade-in mb-8 mx-5 md:mx-24 pb-5">
             <h2 className="text-4xl font-semibold mt-6 mb-4 ml-5 text-white">Our Pastors</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[

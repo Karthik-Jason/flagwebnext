@@ -1,5 +1,4 @@
-﻿
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 
@@ -9,7 +8,8 @@
     position: relative;
     width: 100%;
     /*min-height: 105vh;*/
-    height: auto; /* Adjusts dynamically */
+    height: auto;
+    /* Adjusts dynamically */
     background-image: url('../assets/copyimage10_enhanced.jpg');
     background-size: cover;
     background-position: center;
@@ -35,13 +35,15 @@
     z-index: 10;
     white-space: nowrap;
 }
+
 .Donationcontentsection {
-    display:flex;
-    flex-direction:column;
-    width:100%;
-    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
 
 }
+
 .Donatecontent {
     max-width: 1164px;
     width: 90%;
@@ -60,6 +62,7 @@
     padding: 4%;
     position: relative;
 }
+
 .Donationpolicy {
     max-width: 1164px;
     width: 90%;
@@ -73,13 +76,14 @@
     text-align: center;
     background: #2f2f3d;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    padding: 30px 40px; /* Ample padding for content */
+    padding: 30px 40px;
+    /* Ample padding for content */
 }
 
 @media(max-width:768px) {
     .waystooffercontainer {
-        font-size:16px;
-        padding:8px 16px;
+        font-size: 16px;
+        padding: 8px 16px;
     }
 
 }
@@ -88,7 +92,7 @@
     font-family: 'Great Vibes', cursive;
     font-size: 88px;
     color: white;
-    padding-top:4%;
+    padding-top: 4%;
     text-align: center;
 }
 
@@ -96,9 +100,10 @@
     font-family: 'Great Vibes', cursive;
     font-size: 37px;
     color: white;
-   /* margin-top: 1px;*/
+    /* margin-top: 1px;*/
     margin-left: 78%;
 }
+
 .Transferboxes {
     display: flex;
     height: 160px;
@@ -109,6 +114,7 @@
     cursor: pointer;
     transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
+
 .DonateTransferlink {
     display: flex;
     flex-direction: column;
@@ -123,12 +129,14 @@
     padding: 20px;
     transition: transform 0.2s ease ease-in-out;
 }
+
 .Givingact {
     display: flex;
-   justify-content:space-between;
-   width:100%;
-   align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
+
 .Donationworship {
     border-radius: 6px;
     background: #a3aabe69;
@@ -147,25 +155,29 @@
     align-items: center;
     padding-bottom: 19vh;
 }
+
 .combineddonboxes {
     display: flex;
-    gap:20%;
-    align-items:center;
-    justify-content:center;
+    gap: 20%;
+    align-items: center;
+    justify-content: center;
 }
-    .DonateTransferlink:hover {
-       /* background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+
+.DonateTransferlink:hover {
+    /* background: linear-gradient(45deg, #ff9a9e, #fad0c4);
         transition: background 0.3s ease-in-out;
         transition: 0.3s ease-in-out;*/
-        background: linear-gradient(135deg, #ffcc33, #ff9966);
-        box-shadow: 0px 0px 12px 3px rgba(255, 204, 51, 0.8);
-        transition: 0.3s ease-in-out;
-        transform: scale(1.2);
-    }
+    background: linear-gradient(135deg, #ffcc33, #ff9966);
+    box-shadow: 0px 0px 12px 3px rgba(255, 204, 51, 0.8);
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+}
 
 
 @keyframes glow {
-    0%, 100% {
+
+    0%,
+    100% {
         box-shadow: 0 0 20px 5px rgba(255, 204, 51, 0.8);
     }
 
@@ -200,7 +212,9 @@
     padding: 4%;
     position: relative;
 }
-.upiidscetion,.gpaysection {
+
+.upiidscetion,
+.gpaysection {
     margin: auto;
     display: flex;
     padding: 10px;
@@ -209,14 +223,18 @@
     align-items: center;
     background-color: white;
 }
-.upititle,.gpaytitle {
+
+.upititle,
+.gpaytitle {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     color: #02000D;
     font-weight: 500;
     line-height: 29px;
 }
-.upiid,.gpayid {
+
+.upiid,
+.gpayid {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     color: #7851A9;
@@ -224,6 +242,7 @@
     line-height: 29px;
     padding-left: 9px;
 }
+
 .upicontent {
     /*display:flex;*/
     margin: auto;
@@ -240,23 +259,27 @@
     align-items: center;
     align-self: stretch;
 }
+
 .neftacknowledge {
     margin-right: 40%;
     align-self: stretch;
 }
+
 .neftacknowledgepolicy {
     margin-right: 46%;
     color: #6A1B9A;
     align-self: stretch;
 }
+
 .copyimage {
     cursor: pointer;
     height: 20px;
     margin-Left: 2px;
     margin-Top: 2px
 }
+
 .neftcontentDetails {
-    margin:auto;
+    margin: auto;
     margin-top: 32px;
     margin-bottom: 32px;
     width: 60%;
@@ -275,6 +298,7 @@
 .timelineIcon svg {
     color: white;
 }
+
 .timeline {
     position: relative;
     padding-left: 25px;
@@ -289,7 +313,7 @@
     display: flex;
     align-items: flex-start;
     position: relative;
-    padding-left: 15px; 
+    padding-left: 15px;
 
 }
 
@@ -307,6 +331,7 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
 .timeline::before {
     content: "";
     position: absolute;
@@ -335,26 +360,26 @@
     margin-left: 1px;
 }
 
-    .timelineContent::before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: -24px; 
-        transform: translateY(-50%);
-        width: 21px; 
-        height: 3px; 
-        background-color: #6A1B9A; 
-    }
+.timelineContent::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    transform: translateY(-50%);
+    width: 21px;
+    height: 3px;
+    background-color: #6A1B9A;
+}
 
 
-    .timelineContent p {
-        font-weight: bold;
-    }
+.timelineContent p {
+    font-weight: bold;
+}
 
-    .timelineContent span {
-        font-weight: normal;
-        color: #333;
-    }
+.timelineContent span {
+    font-weight: normal;
+    color: #333;
+}
 
 @media (max-width: 768px) {
     .timeline {
@@ -362,11 +387,11 @@
     }
 
     .timelineItem {
-        padding-left: 40px; 
+        padding-left: 40px;
     }
 
     .timelineIcon {
-        left: -40px; 
+        left: -40px;
         width: 35px;
         height: 35px;
     }
@@ -399,7 +424,7 @@
 
 .neftcontentleft {
     color: #63636C;
-   /* font-family: Open Sans;*/
+    /* font-family: Open Sans;*/
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
@@ -411,23 +436,25 @@
     width: 34%;
     padding-top: 5%;
 }
+
 .neftcontentRight {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 16px; 
-    
+    gap: 16px;
+
 }
 
 .neftrighttext {
     color: #02000D;
-   /* font-family: Open Sans;*/
+    /* font-family: Open Sans;*/
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 16px;
     text-align: right;
 }
+
 .subdtl {
     display: flex;
     height: 67px;
@@ -438,8 +465,8 @@
     background: #d6b4fc38;
 }
 
-.subdtlsleft{
-    padding:10px;
+.subdtlsleft {
+    padding: 10px;
     color: #63636C;
     font-family: Open Sans;
     font-size: 15px;
@@ -448,33 +475,36 @@
     line-height: 16px;
     text-transform: uppercase;
 }
+
 .subdtlsright {
     display: flex;
     align-items: center;
     gap: 16px;
     padding-right: 8px;
 }
-.leftdtl {
 
+.leftdtl {}
 
-}
 /*--------------------------------------*/
 
 .knowGodContentWrapper {
-    overflow:hidden;
+    overflow: hidden;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .subKGheader {
     background:
-    linear-gradient(to bottom, rgba(234, 234, 43, 0.142), rgba(200, 120, 15, 0.729)), 
-    url('../assets/Somthingthatneeded.png') fixed;
+        linear-gradient(to bottom, rgba(234, 234, 43, 0.142), rgba(200, 120, 15, 0.729)),
+        url('../assets/Somthingthatneeded.png') fixed;
     background-size: cover;
     text-align: center;
     height: 180px;
     border-radius: 10px;
 }
-.knowgodcontainerheader,.knowgodcontainerbody{
+
+.knowgodcontainerheader,
+.knowgodcontainerbody {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -484,26 +514,34 @@
 
 
 @media (min-width: 768px) {
-    .knowgodcontainerheader,.knowgodcontainerbody {
+
+    .knowgodcontainerheader,
+    .knowgodcontainerbody {
         width: 750px;
     }
 }
 
 @media (min-width: 992px) {
-    .knowgodcontainerheader,.knowgodcontainerbody {
+
+    .knowgodcontainerheader,
+    .knowgodcontainerbody {
         width: 970px;
     }
 }
 
 @media (min-width: 1200px) {
-    .knowgodcontainerheader, .knowgodcontainerbody {
+
+    .knowgodcontainerheader,
+    .knowgodcontainerbody {
         width: 1170px;
     }
 }
-.knowgodheaderrow{
+
+.knowgodheaderrow {
     margin-left: -15px;
     margin-right: -15px;
 }
+
 .knowgodbodyrow {
     margin-left: -15px;
     margin-right: -15px;
@@ -525,6 +563,7 @@
         float: left;
     }
 }
+
 .Topheader {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
@@ -540,36 +579,50 @@
     border-bottom: solid 2px rgba(255,255,255,.1); */
     display: block;
 }
+
 .subKGBody {
-    overflow:hidden;
-    padding:60px 0 60px 0;
+    overflow: hidden;
+    padding: 60px 0 60px 0;
 }
+
 .Knowgodcontentcontainer {
     padding-left: 0;
     padding-right: 0;
-    width:100%;
-    float:left;
-   /* background-color:black;*/
+    width: 100%;
+    float: left;
+    /* background-color:black;*/
 }
+
 .Knowgodcontentinnercontainer {
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
-  /*  background-color: #f8f8f8;*/
+    /*  background-color: #f8f8f8;*/
 }
+
 .KnowgodcontentTotalTabSection {
-    margin-bottom:7px;
+    margin-bottom: 7px;
 }
+
 .KnowgodcontentTotalTabSeprate {
     display: flex;
 }
+
+@media (max-width: 768px) {
+    .KnowgodcontentTotalTabSeprate {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 .KnowGodTabonly {
-    display:flex;
-    flex-direction:column;
-    margin-right:0px;
-    position:relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    position: relative;
 
 }
+
 .KnowGodtabItem {
     font-size: 15px;
     /* color: black;*/
@@ -584,16 +637,22 @@
     border-color: #211708;
     background: linear-gradient(45deg, #dcb562, #f2d21e);
     color: #fff;
-    border-radius:5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
 }
 
-    .KnowGodtabItem:hover {
-        background: linear-gradient(45deg, #d3d165, #ff6f00);
+@media (max-width: 768px) {
+    .KnowGodtabItem {
+        width: 100%;
     }
+}
 
-    .KnowGodtabItem.activeTab {
-        background: linear-gradient(45deg, #d2a952, #ff4400);
-    }
+.KnowGodtabItem:hover {
+    background: linear-gradient(45deg, #d3d165, #ff6f00);
+}
+
+.KnowGodtabItem.activeTab {
+    background: linear-gradient(45deg, #d2a952, #ff4400);
+}
 
 .Knowgodcontenttab {
     position: relative;
@@ -602,8 +661,8 @@
 
 .GoldIndicator {
     position: absolute;
-    left:0;
-   /* right: 0;*/
+    left: 0;
+    /* right: 0;*/
     top: 0;
     width: 3px;
     height: 100%;
@@ -620,7 +679,7 @@
 }
 
 
-.Knowgodcontenttab{
+.Knowgodcontenttab {
     padding: 14px 20px;
     display: block;
     font-weight: bold;
@@ -667,7 +726,7 @@
 }
 
 /*-----------------*/
-    
+
 
 .KnowgodTabPanel h2 {
     font-size: 24px;
@@ -688,6 +747,7 @@
     font-style: italic;
     color: #444;
 }
+
 .Knowgodpara {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -701,6 +761,7 @@
 .KnowgodImage {
     margin-bottom: 58px;
 }
+
 .KnowgodparaRJ {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -719,6 +780,7 @@
     text-transform: none;
     color: #f95d09;
 }
+
 .KnowgodparaHeadNS {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -756,18 +818,22 @@
 
 
 .highlightJesus {
-    color: #b68a2c; /* rich gold */
+    color: #b68a2c;
+    /* rich gold */
     font-weight: bold;
     font-style: italic;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
+
 .inlineImage {
     display: inline-block;
     vertical-align: middle;
-    border-radius: 8px; 
+    border-radius: 8px;
     margin-top: 10px;
     box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 14px;
 }
+
 .knowgodverses {
     font-style: italic;
     color: #d46f38d4;
@@ -779,6 +845,7 @@
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .Knowgodparakeystep {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -789,9 +856,11 @@
     margin-bottom: 8px;
     font-size: 15px;
 }
+
 .salvation_prayer_border {
     border-top: 3.5px solid #D4AF37;
 }
+
 .Knowgodparawelcome {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -802,6 +871,7 @@
     margin-bottom: 20px;
     margin-top: 30px;
 }
+
 .KnowgodBQ {
     font-family: 'Merriweather', Georgia, "Times New Roman", Times, serif;
 }

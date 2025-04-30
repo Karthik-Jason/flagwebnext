@@ -85,8 +85,8 @@ export default function DonateUs() {
                                 <Image src={flagQRCode} alt="UPI QR Code" className={styles.qrImage} />
                             </div>)}
                             {activetab === 'NEFT' && (<div className={styles.Neftcontent} ref={neftref}>
-                                <p className={styles.neftacknowledgepolicy}>*Only for all Indian citizens residing in India & abroad</p>
-                                <p className={styles.neftacknowledge}>You can send your offering via bank transfer facility through AXIS BANK</p>
+                                <small className={styles.neftacknowledgepolicy}>*Only for Indian citizens residing in India or abroad</small>
+                                <p className={styles.neftacknowledge}>You can send your offerings directly via bank transfer using NEFT, RTGS or IMPS</p>
                                 <div className={styles.timeline}>
                                     <div className={styles.timelineItem}>
                                         <div className={styles.timelineIcon}><Landmark size={21} /></div>
