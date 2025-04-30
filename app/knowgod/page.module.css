@@ -10,7 +10,7 @@
     /*min-height: 105vh;*/
     height: auto;
     /* Adjusts dynamically */
-    background-image: url('../assets/copyimage10_enhanced.jpg');
+    background-image: url('../../public/Images/copyimage10_enhanced.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: repeat-y;
@@ -496,7 +496,7 @@
 .subKGheader {
     background:
         linear-gradient(to bottom, rgba(234, 234, 43, 0.142), rgba(200, 120, 15, 0.729)),
-        url('../assets/Somthingthatneeded.png') fixed;
+        url('../../public/Images/Somthingthatneeded.png') fixed;
     background-size: cover;
     text-align: center;
     height: 180px;
@@ -749,7 +749,7 @@
 }
 
 .Knowgodpara {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS';
     font-weight: 400;
     line-height: 1.4em;
     text-align: left;
@@ -829,7 +829,9 @@
     display: inline-block;
     vertical-align: middle;
     border-radius: 8px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-bottom: 30px;
     box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2);
     margin-bottom: 14px;
 }
@@ -847,7 +849,7 @@
 }
 
 .Knowgodparakeystep {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS';
     font-weight: 400;
     line-height: 1.4em;
     text-align: left;

@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth !important;
+  font-family: 'Trebuchet MS'
 }
 
 html,
@@ -19,7 +20,7 @@ body {
 .div {
   background:
     linear-gradient(to bottom, rgba(234, 234, 43, 0.142), rgba(200, 120, 15, 0.729)),
-    url('./assets/family-pic.jpg') fixed;
+    url('../public/Images/family-pic.png') fixed;
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -70,6 +71,7 @@ body {
   position: relative;
   top: 35px;
 }
+
 @media(max-width:768px) {
   .home-page-text {
     position: relative;
@@ -79,6 +81,7 @@ body {
     bottom: -80px;
     /* top: -20px; */
   }
+
   .mobile-only-family-image {
     display: block;
   }

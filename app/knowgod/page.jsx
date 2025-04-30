@@ -67,8 +67,8 @@ export default function KnowGod() {
                                                     <Image
                                                         src="/Images/WhoIsJesus.jpeg"
                                                         alt="Descriptive alt text"
-                                                        width={880}
-                                                        height={200}
+                                                        width={300}
+                                                        height={300}
                                                         className={styles.inlineImage}
                                                     />
                                                     <p className={styles.Knowgodpara}><span className={styles.highlightJesus}>Jesus</span> is more than just a historical figure or a great teacher—He is the Son of God, the Savior of the world, and the source of true life.</p>
@@ -264,8 +264,8 @@ export default function KnowGod() {
                                                     <Image
                                                         src="/Images/NextStepimage.jpeg"
                                                         alt="Descriptive alt text"
-                                                        width={920}
-                                                        height={200}
+                                                        width={300}
+                                                        height={300}
                                                         className={styles.inlineImage}
                                                     />
 

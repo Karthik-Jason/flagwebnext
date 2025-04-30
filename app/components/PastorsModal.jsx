@@ -8,6 +8,8 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
+import Image from 'next/image';
+
 
 const style = {
 //   position: 'absolute',
@@ -21,15 +23,22 @@ const style = {
 //   p: 6
 };
 
-export default function PastorsModal({name,role,description}) {
+export default function PastorsModal({name,role,description,imageIndex}) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   let [pastorName,pastorRole,pastorDescription] = [name,role,description];
+  let imagePath = "/Images/pastor-" + imageIndex + ".png"
 
   return (
     <div>
-      <Button onClick={handleOpen}>Know More</Button>
+      <Image 
+        onClick={handleOpen}
+        src={imagePath}
+        alt="pastorsimage"
+        width={250}
+        height={100}
+      />
       <Modal
         open={open}
         onClose={handleClose}
