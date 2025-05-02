@@ -836,6 +836,18 @@
     margin-bottom: 14px;
 }
 
+@media (max-width: 768px) {
+    .inlineImage {
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
 .knowgodverses {
     font-style: italic;
     color: #d46f38d4;
