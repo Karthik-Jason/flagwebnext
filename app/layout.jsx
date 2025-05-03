@@ -45,8 +45,8 @@ export default function RootLayout({ children }) {
         <AboutUs />
         <KnowGod />
         <DonateUs />
-        {/* <Footer /> */}
-        {/* <ScrollButton /> */}
+        <Footer />
+        <ScrollButton />
       </body>
     </html>
   );
