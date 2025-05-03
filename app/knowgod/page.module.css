@@ -847,11 +847,12 @@
     }
 }
 
-@media (min-width: 424px) {
+@media (min-width: 424px) and (max-width: 767px) {
     .inlineImage {
         margin-left: 25px;
     }
 }
+
 
 .knowgodverses {
     font-style: italic;
