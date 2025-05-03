@@ -37,7 +37,7 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
                 <Link href="#donate-us" className="link text-white hover:text-black hover:bg-white rounded-lg p-2">
                   DONATE US
                 </Link>
-                <Link href="#contact-us" className="link text-white hover:text-black hover:bg-white rounded-lg p-2">
+                <Link href="#footer" className="link text-white hover:text-black hover:bg-white rounded-lg p-2">
                   CONTACT US
                 </Link>
               </div>
@@ -67,7 +67,7 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
                 <Link href="#donate-us" className="link block text-white hover:text-black hover:bg-white rounded-lg p-2">
                   DONATE US
                 </Link>
-                <Link href="#contact-us" className="link block text-white hover:text-black hover:bg-white rounded-lg p-2">
+                <Link href="#footer" className="link block text-white hover:text-black hover:bg-white rounded-lg p-2">
                   CONTACT US
                 </Link>
               </div>

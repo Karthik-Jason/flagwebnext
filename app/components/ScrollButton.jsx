@@ -1,7 +1,6 @@
 "use client";
 
 import { FaAngleDoubleUp } from '@react-icons/all-files/fa/FaAngleDoubleUp';
-import './ScrollButton.css';
 import { useEffect, useState } from 'react';
 
 export default function ScrollButton() {

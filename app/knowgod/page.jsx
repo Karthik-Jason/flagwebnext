@@ -310,18 +310,12 @@ export default function KnowGod() {
                                                     <p className="mt-6 text-gray-700 italic">
                                                         We are excited to walk this journey with you!
                                                     </p>
-
-
-
                                                 </div>
                                             )}
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
                 </div>

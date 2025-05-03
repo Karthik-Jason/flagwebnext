@@ -3,13 +3,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
-import Head from "next/head";
 
 //components
 import Navbar from "./components/Navbar";
 import AboutUs from "./aboutus/page";
 import DonateUs from "./donateus/page";
-import Footer from "./footer/page";
+import Footer from "./components/Footer";
 import KnowGod from "./knowgod/page";
 import ScrollButton from "./components/ScrollButton";
 
@@ -21,6 +20,7 @@ export const metadata = {
 //   initialScale: 1,
 //   width: 'device-width'
 // }
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
