@@ -24,7 +24,7 @@
   }
 
   .pastor-container-card {
-    margin: 0 auto
+    margin: 0 auto;
   }
 
   .card{
@@ -121,13 +121,13 @@
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
-    animation-duration: 1s;
+    animation-duration: 1.6s;
   }
   
   @keyframes fadeInOpacity {
     0% {
       opacity: 0;
-      transform: translateY(-70px);
+      transform: translateY(-30px);
     }
     100% {
       opacity: 1;

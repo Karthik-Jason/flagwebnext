@@ -13,19 +13,19 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
       setisClick(!isClick);
     }
     return (
-      <nav className="navbar-item bg-black sticky top-0 z-50">
+      <nav id= "home-navbar" className="navbar-item bg-black sticky top-0 z-50">
         <div className="max-w-9xl px-4 sm:px-6 lg-px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex shrink-0">
-                <Link href="/" className="logo">
+                <Link href="#home-navbar" className="logo">
                 <Image alt="logo" src={logo} />
                 </Link>
               </div>
             </div>
             <div className="hidden md:block">
               <div className="flex items-center ml-4 space-x-4">
-                <Link href="#home" className="link text-white hover:text-black hover:bg-white rounded-lg p-2">
+                <Link href="#home-navbar" className="link text-white hover:text-black hover:bg-white rounded-lg p-2">
                   HOME
                 </Link>
                 <Link href="#about-us" className="link text-white hover:text-black hover:bg-white rounded-lg p-2">
@@ -52,10 +52,11 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
               </button>
             </div>
           </div>
-          {isClick && (
-            <div className="md:hidden">
+            <div className={`md:hidden transition-all duration-700 ease-in-out transform overflow-hidden ${
+                isClick ? 'translate-y-0 opacity-100 max-h-[500px]' : '-translate-y-4 opacity-0 max-h-0'
+            }`}>
                <div className="px-2 pt-2 pb-3 space-y-1 ">
-                <Link href="#home" className="link block text-white hover:text-black hover:bg-white rounded-lg p-2">
+                <Link href="#home-navbar" className="link block text-white hover:text-black hover:bg-white rounded-lg p-2">
                   HOME
                 </Link>
                 <Link href="#about-us" className="link block text-white hover:text-black hover:bg-white rounded-lg p-2">
@@ -72,7 +73,6 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
                 </Link>
               </div>
             </div>
-          )}
         </div>
       </nav>
     );

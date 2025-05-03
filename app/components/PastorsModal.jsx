@@ -3,6 +3,7 @@
 import * as React from 'react';
 import './PastorsModal.css';
 import Box from '@mui/material/Box';
+import Fade from '@mui/material/Fade'
 import Modal from '@mui/material/Modal';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
@@ -31,6 +32,7 @@ export default function PastorsModal({name,role,description,imageIndex}) {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
+        <Fade in={open}>
         <Box id="box">
             <h1 id="title">{pastorName}</h1>
             <h2 id="role">{pastorRole}</h2>
@@ -50,6 +52,7 @@ export default function PastorsModal({name,role,description,imageIndex}) {
               <CloseIcon />
             </IconButton>
         </Box>
+        </Fade>
       </Modal>
     </div>
   );

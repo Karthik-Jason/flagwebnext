@@ -9,7 +9,6 @@ import seniorPastorDetails from "../conf/seniorPastor";
 
 const AboutUs = () => {
   const [activeSection, setActiveSection] = useState("ourChurch");
-  console.log(Object.keys(pastorsDetails))
   return (
       <div id="about-us" className="mt-36">
         <h1 className="about-us-card text-6xl font-bold text-center mb-8 text-white p-10 shadow-lg">ABOUT US</h1>
@@ -19,7 +18,7 @@ const AboutUs = () => {
           <button id= "subtabs"
             onClick={() => setActiveSection("ourChurch")}
             className={`px-4 py-4 font-semibold rounded ${
-              activeSection === "ourChurch" ? "text-2xl font-semibold  bg-gradient-to-l from-yellow-100 to-yellow-600 text-white" : "bg-gradient-to-l from-yellow-600 to-yellow-200 text-black"
+              activeSection === "ourChurch" ? "text-2xl font-semibold  bg-gradient-to-l from-yellow-100 to-yellow-600 text-white transition-all duration-700 ease-in-out" : "bg-gradient-to-l from-yellow-600 to-yellow-200 text-black transition-all duration-700 ease-in-out"
             }`}
           >
             Our Church
@@ -27,7 +26,7 @@ const AboutUs = () => {
           <button id= "subtabs"
             onClick={() => setActiveSection("seniorPastor")}
             className={`px-4 py-4 font-semibold rounded ${
-              activeSection === "seniorPastor" ? "text-2xl font-semibold  bg-gradient-to-l from-yellow-100 to-yellow-600 text-white" : "bg-gradient-to-l from-yellow-600 to-yellow-200 text-black"
+              activeSection === "seniorPastor" ? "text-2xl font-semibold  bg-gradient-to-l from-yellow-100 to-yellow-600 text-white transition-all duration-700 ease-in-out" : "bg-gradient-to-l from-yellow-600 to-yellow-200 text-black transition-all duration-700 ease-in-out"
             }`}
           >
             Senior Pastor
@@ -35,7 +34,7 @@ const AboutUs = () => {
           <button id= "subtabs"
             onClick={() => setActiveSection("pastoralTeam")}
             className={`px-4 py-4 font-semibold rounded ${
-              activeSection === "pastoralTeam" ? "text-2xl font-semibold  bg-gradient-to-l from-yellow-100 to-yellow-600 text-white" : "bg-gradient-to-l from-yellow-600 to-yellow-200 text-black"
+              activeSection === "pastoralTeam" ? "text-2xl font-semibold  bg-gradient-to-l from-yellow-100 to-yellow-600 text-white transition-all duration-700 ease-in-out" : "bg-gradient-to-l from-yellow-600 to-yellow-200 text-black transition-all duration-700 ease-in-out"
             }`}
           >
             Pastoral Team

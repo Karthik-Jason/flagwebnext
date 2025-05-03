@@ -2,7 +2,6 @@
 export default function Home() {
   return (
     <div
-      id="home"
       className="home-page-text bg-gray-50 shadow-2xl rounded-3xl p-9 border-gray-700 in-left"
     >
       <h1 className="text-3xl text-gray-200 font-bold mb-5">

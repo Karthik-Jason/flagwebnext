@@ -1,5 +1,5 @@
 .navbar-item {
-    background: linear-gradient(45deg, #d3d16587, #ff6f00);
+    background: linear-gradient(45deg, #f1ee3a87, #ed7215e7);
 }
 
 .link {
@@ -26,6 +26,9 @@
     animation: shake 0.5s;
     animation-iteration-count: infinite;
 }
+.hamburger {
+
+  }
 
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }

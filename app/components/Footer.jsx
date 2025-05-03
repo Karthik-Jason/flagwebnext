@@ -143,7 +143,7 @@ export default function Footer() {
             </u>
           </p>
         </div>
-        <small className="copyright">
+        <small className="copyright pl-10">
           Copyright © {currentYear} all rights reserved
         </small>
       </div>

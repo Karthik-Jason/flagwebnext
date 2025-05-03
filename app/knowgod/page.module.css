@@ -836,15 +836,20 @@
     margin-bottom: 14px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 374px) {
     .inlineImage {
-        display: inline-block;
-        vertical-align: middle;
-        border-radius: 8px;
-        margin-top: 20px;
-        margin-left: 0px;
-        margin-bottom: 30px;
-        box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2);
+        margin-left: 1px;
+    }
+}
+@media (min-width: 375px) and (max-width: 423px) {
+    .inlineImage {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 424px) {
+    .inlineImage {
+        margin-left: 25px;
     }
 }
 

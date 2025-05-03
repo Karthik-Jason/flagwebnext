@@ -70,10 +70,15 @@
         min-height: 30vh;
     }    
     .social-container {
-        margin: 30px;
+        margin-left: 70px;
+        margin-bottom: 30px;
     }
     .address {
         margin-left: 10px;
+    }
+    .copyright {
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
 }
 
