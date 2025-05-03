@@ -72,7 +72,7 @@ const AboutUs = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               { 
               Object.values(pastorsDetails).map((pastor, index) => (
-              <div key={index} className="container">
+              <div key={index} className="container pastor-container-card">
                 <div id="pastors-details" className="card">
                   <div className="face face1">
                     <div className="content">
