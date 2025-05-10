@@ -26,7 +26,7 @@ export default function ScrollButton() {
         <button className={`fixed bottom-5 right-5 p-2 transition-opacity duration-200
         ${ isVisible ? "opacity-100" : "opacity-0" }`}
         onClick={scrollToTop}>
-            <FaAngleDoubleUp className='w-10 h-10 text-gray-100' />
+            <FaAngleDoubleUp className='w-10 h-10 text-gray-200' />
         </button>
     );
   }

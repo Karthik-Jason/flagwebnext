@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           content="width=device-width; initial-scale=1; shrink-to-fit=no"
         />
       </head>
-      <body>
+      <body id="home">
         <Navbar />
         <div className="div">
           <Image

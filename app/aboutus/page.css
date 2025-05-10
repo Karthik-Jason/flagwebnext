@@ -3,10 +3,14 @@
     linear-gradient(to bottom, rgba(216, 216, 130, 0.142), rgba(231, 140, 21, 0.959)), 
     url('../assets/church-inside.jpg') fixed;
     background-size: cover;
-    min-height: 110vh;
+    /* min-height: 110vh; */
     /* position: sticky;  */
     background-position: center;
   }
+
+    #about-us-new {
+      margin-top: 55vh;
+    }
 
   #pastors-details {
     display: block;
@@ -138,12 +142,12 @@
   @media(max-width:768px) {
     .card{
       position: relative;
-      width: 250px;
-      height: 270px;
+      width: 290px;
+      height: 330px;
       background: #fff;
       box-shadow: 0 15px 60px rgba(0,0,0, .5);
       border-radius: 15px;
       overflow: hidden;
-      font-size: 8px;
+      font-size: 10px;
     }
   }
