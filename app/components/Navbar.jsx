@@ -57,6 +57,9 @@ export default function Navbar() {
               <Link href="#about-us" className="link text-white hover:text-black hover:bg-white rounded-lg p-2">
                 ABOUT US
               </Link>
+              <Link href="#sermons" className="link text-white hover:text-black hover:bg-white rounded-lg p-2">
+                SERMONS
+              </Link>
               <Link href="#know-god" className="link text-white hover:text-black hover:bg-white rounded-lg p-2">
                 KNOW GOD
               </Link>
@@ -91,6 +94,9 @@ export default function Navbar() {
             <Link href="#about-us" className="link block text-white hover:text-black hover:bg-white rounded-lg p-2">
               ABOUT US
             </Link>
+             <Link href="#sermons" className="link text-white hover:text-black hover:bg-white rounded-lg p-2">
+                SERMONS
+              </Link>
             <Link href="#know-god" className="link block text-white hover:text-black hover:bg-white rounded-lg p-2">
               KNOW GOD
             </Link>

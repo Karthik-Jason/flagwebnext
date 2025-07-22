@@ -7,6 +7,7 @@ import Image from "next/image";
 //components
 import Navbar from "./components/Navbar";
 import AboutUs from "./aboutus/page";
+import YoutubeVideos from "./youtube/page";
 import DonateUs from "./donateus/page";
 import Footer from "./components/Footer";
 import KnowGod from "./knowgod/page";
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
           {children}
         </div>
         <AboutUs />
+        <YoutubeVideos/>
         <KnowGod />
         <DonateUs />
         <Footer />
