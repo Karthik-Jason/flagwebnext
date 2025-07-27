@@ -8,12 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import "./YouTubeVideos.css";
 
-
 export default function VideosCarousel({ videos, stats }) {
-    const screenWidth = window.innerWidth;
-    console.log(screenWidth,"current width")
-    const navigationFlag = screenWidth <= 450 ? false : true;
-    const spaces = screenWidth <= 450 ? 100 : 23;
     return (
         <div id="sermons" className="Youtubecontainer">
             <div className="youtubecontent">
@@ -26,11 +21,11 @@ export default function VideosCarousel({ videos, stats }) {
                     <>
                         <Swiper
                             freeMode={true}
-                            spaceBetween={spaces}
+                            spaceBetween={23}
                             slidesPerView={4}
                             loop={false}
                             watchOverflow={true}
-                            navigation={navigationFlag}
+                            navigation={true}
                             pagination={{ clickable: true }}
                             modules={[FreeMode, Navigation, Pagination]}
                             style={{ paddingBottom: '30px', position: 'relative' }}
