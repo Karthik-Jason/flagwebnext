@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { FreeMode, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -10,19 +10,10 @@ import "./YouTubeVideos.css";
 
 
 export default function VideosCarousel({ videos, stats }) {
-    const [buttonRight, setButtonRight] = useState("10%");
-
-    useEffect(() => {
-        const updateRight = () => {
-            const width = window.innerWidth;
-            setButtonRight(58 + ((99 - 58) * (1 - (width / 1480))) + '%');
-        };
-
-        updateRight(); // On load
-        window.addEventListener("resize", updateRight);
-        return () => window.removeEventListener("resize", updateRight);
-    }, []);
-
+    const screenWidth = window.innerWidth;
+    console.log(screenWidth,"current width")
+    const navigationFlag = screenWidth <= 450 ? false : true;
+    const spaces = screenWidth <= 450 ? 100 : 23;
     return (
         <div id="sermons" className="Youtubecontainer">
             <div className="youtubecontent">
@@ -33,21 +24,15 @@ export default function VideosCarousel({ videos, stats }) {
 
                 {videos.length > 0 ? (
                     <>
-                        {/* ✅ Inline style override for dynamic button right value */}
-                        <style>{`
-                            .swiper-button-next {
-                                right: ${buttonRight} !important;
-                            }
-                        `}</style>
-
                         <Swiper
-                            modules={[Navigation, Pagination]}
-                            spaceBetween={23}
+                            freeMode={true}
+                            spaceBetween={spaces}
                             slidesPerView={4}
                             loop={false}
                             watchOverflow={true}
-                            navigation
+                            navigation={navigationFlag}
                             pagination={{ clickable: true }}
+                            modules={[FreeMode, Navigation, Pagination]}
                             style={{ paddingBottom: '30px', position: 'relative' }}
                         >
                             {videos.map((video) => {
