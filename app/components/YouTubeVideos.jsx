@@ -21,7 +21,7 @@ export default function VideosCarousel({ videos, stats }) {
                     <>
                         <Swiper
                             freeMode={true}
-                            spaceBetween={23}
+                            spaceBetween={24}
                             slidesPerView={4}
                             loop={false}
                             watchOverflow={true}
